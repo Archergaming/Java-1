@@ -4,14 +4,14 @@ public class perimeter {
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the length of the first side: ");
-        int a = input.nextInt();
+        double a = input.nextDouble();
         System.out.print("Enter the length of the second side: ");
-        int b=input.nextInt();
+        double b=input.nextDouble();
         System.out.print("Enter the length of the third side: ");
-        int c=input.nextInt();
+        double c=input.nextDouble();
         System.out.print("Enter the length of the fourth side: ");
-        int d=input.nextInt();
-        int perimeter = a+b+c+d;
-        System.out.print("The perimeter of the quadrilateral is: " + perimeter);
+        double d=input.nextDouble();
+        double perimeter = a+b+c+d;
+        System.out.println("The perimeter of the quadrilateral is: " + perimeter);
     }
 }
